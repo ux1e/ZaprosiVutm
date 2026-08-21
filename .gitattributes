@@ -1,0 +1,8 @@
+# Проект под Windows: в рабочей копии всегда CRLF, в репозитории LF.
+* text=auto eol=crlf
+
+# Бинарные файлы не трогаем.
+*.ico binary
+*.jpg binary
+*.png binary
+*.resx text eol=crlf
